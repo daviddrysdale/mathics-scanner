@@ -182,7 +182,7 @@ def compile_tables(data: dict) -> dict:
     unicode_to_operator = {
         v.get("unicode-equivalent", v.get("ascii")): v["operator-name"]
         for k, v in data.items()
-        if "operator-name" in v
+        if "operator-name" in v and ("unicode-equivalent" in v or "ascii" in v)
     }
     # Conversion from WL to the fully qualified names dictionary entry
     wl_to_ascii_dict = {
