@@ -65,8 +65,9 @@
 #               the named character. If it is the same as unicode-equivalent
 #               it should be omitted
 #
-#   wl-unicode-name: The name of the character corresponding to `wl-unicode`, if it exists. If it is the same as unicode-equivalent-name it can be omitted.
-#                    It will mentioned in Wolfram Language docs if it exists.
+#   wl-unicode-name: The name of the character corresponding to `wl-unicode`, if it
+#                    exists. If it is the same as unicode-equivalent-name it can be omitted.
+#                    It will be mentioned in Wolfram Language docs if it exists.
 #
 # Sources:
 #   https://www.compart.com/en/unicode
