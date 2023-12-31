@@ -22,11 +22,11 @@ def test_wl_to_ascii():
 
         ascii_c = wl_to_ascii(wl)
 
-        assert is_ascii(ascii_c), f"{k}'s ASCII equivalid isn't valid ASCII"
+        assert is_ascii(ascii_c), f"{k}'s ASCII equivalent isn't valid ASCII"
 
         uni = v.get("unicode-equivalent")
 
         if uni is not None and is_ascii(uni):
             assert (
                 uni == ascii_c
-            ), f"{k}'s unicode equivalent could be used as it's ASCII equivalent but it isn't"
+            ), f"{k}'s unicode equivalent could be used as its ASCII equivalent but it isn't"

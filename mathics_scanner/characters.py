@@ -71,14 +71,14 @@ aliased_characters = _data.get("aliased-characters", {})
 def replace_wl_with_plain_text(wl_input: str, use_unicode=True) -> str:
     """
     The Wolfram Language uses specific Unicode characters to represent Wolfram
-    Language named characters. This functions replaces all occurrences of such
+    Language named characters. This function replaces all occurrences of such
     characters with their corresponding Unicode/ASCII equivalents.
 
     :param wl_input: The string whose characters will be replaced.
     :param use_unicode: A flag that indicates whether to use Unicode or ASCII
                         for the conversion.
 
-    Note that the occurrences of named characters in ``wl_input`` are expect to
+    Note that the occurrences of named characters in ``wl_input`` are expected to
     be represented by Wolfram's internal scheme. For more information Wolfram's
     representation scheme and on our own conversion scheme please see `Listing
     of Named Characters
@@ -97,7 +97,7 @@ def replace_wl_with_plain_text(wl_input: str, use_unicode=True) -> str:
 def replace_unicode_with_wl(unicode_input: str) -> str:
     """
     The Wolfram Language uses specific Unicode characters to represent Wolfram
-    Language named characters. This functions replaces all occurrences of the
+    Language named characters. This function replaces all occurrences of the
     corresponding Unicode equivalents of such characters with the characters
     themselves.
 
