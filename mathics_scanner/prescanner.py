@@ -110,7 +110,7 @@ class Prescanner(object):
             # Add text from prior line fragment as well
             # as the escape sequence, a character, from the escape sequence
             # that was just matched.
-            line_fragments.append(self.input_line[start : self.pos])
+            line_fragments.append(self.input_line[self.pos : start])
             line_fragments.append(chr(result))
 
             # Set up a new line fragment for the next time we are called.
