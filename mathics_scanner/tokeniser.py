@@ -82,7 +82,6 @@ def init_module():
 
     tokens = [
         ("Definition", r"\? "),
-        ("Information", r"\?\? "),
         ("Number", NUMBER_PATTERN),
         ("String", r'"'),
         ("Pattern", pattern_pattern),
