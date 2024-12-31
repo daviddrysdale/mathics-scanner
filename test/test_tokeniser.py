@@ -181,7 +181,7 @@ def test_precision():
 
 
 # String tests (with many more than those
-# below are now in test_string_token.py
+# below) are now in test_string_tokens.py
 #
 # def test_string():
 #     check_string(r'"abc"')
